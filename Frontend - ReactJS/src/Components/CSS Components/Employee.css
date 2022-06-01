@@ -1,0 +1,3 @@
+.edit__Button:hover, .delete__Button:hover{
+    cursor: pointer;
+}

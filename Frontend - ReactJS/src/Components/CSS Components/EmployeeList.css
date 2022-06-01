@@ -1,0 +1,127 @@
+.employee__List{
+    width: 100%;
+    margin-left: 40px;
+    margin-right: auto;
+    margin-top: 2rem/* 32px */;
+    margin-bottom: 2rem/* 32px */;
+}
+
+/* @media (min-width: 640px) {
+    .employee__List {
+    max-width: 640px;
+    }
+}
+
+@media (min-width: 768px) {
+    .employee__List {
+    max-width: 768px;
+    }
+} */
+
+.employee__Add{
+    height: 3rem/* 48px */;
+}
+
+.employee_AddButton{
+
+    height: 40px;
+    border-radius: 5px/* 4px */;
+    --tw-bg-opacity: 1;
+    background-color: rgb(71 85 105 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    padding-left: 1.5rem/* 24px */;
+    padding-right: 1.5rem/* 24px */;
+    padding-left: 1.5rem/* 24px */;
+    padding-right: 1.5rem/* 24px */;
+    cursor: pointer;
+}
+
+.employee__FullList{
+    display: flex;
+    box-shadow: 2px 2px 2px 2px #aea7a7;
+    /* --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    border-bottom-width: 1px; */
+    width: 95%;
+}
+
+.employee__FullList > table{
+    min-width: 100%;
+}
+
+.table__Head{
+    background-color: rgb(249, 250, 251);
+}
+
+.tr__Firstname, .tr__Lastname, .tr__Emailid{
+    text-align: left;
+    font-weight: 400;
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding-top: 0.75rem/* 12px */;
+    padding-bottom: 0.75rem/* 12px */;
+    padding-left: 1.5rem/* 24px */;
+    padding-right: 1.5rem/* 24px */;
+}
+
+.tr__Actions{
+    text-align: right;
+    font-weight: 400;
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding-top: 0.75rem/* 12px */;
+    padding-bottom: 0.75rem/* 12px */;
+    padding-left: 1.5rem/* 24px */;
+    padding-right: 1.5rem/* 24px */;
+}
+
+.table__Body{
+    background-color: white;
+}
+
+.employee__FirstName, .employee__LastName, .employee__Email{
+    text-align: left;
+    padding-left: 1.5rem/* 24px */;
+    padding-right: 1.5rem/* 24px */;
+    padding-top: 1rem/* 16px */;
+    padding-bottom: 1rem/* 16px */;
+    white-space: nowrap;
+    font-size: 0.875rem/* 14px */;
+    line-height: 1.25rem/* 20px */;
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.employee__Actions{
+    text-align: right;
+    padding-left: 1.5rem/* 24px */;
+    padding-right: 1.5rem/* 24px */;
+    padding-top: 1rem/* 16px */;
+    padding-bottom: 1rem/* 16px */;
+    white-space: nowrap;
+    font-size: 0.875rem/* 14px */;
+    line-height: 1.25rem/* 20px */;
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+    font-weight: 500;
+    font-size: 0.875rem/* 14px */;
+    line-height: 1.25rem/* 20px */;
+}
+
+.edit__Button, .delete__Button{
+    --tw-text-opacity: 1;
+    color: rgb(79 70 229 / var(--tw-text-opacity));
+    padding-left: 1rem/* 16px */;
+    padding-right: 1rem/* 16px */;
+}
+
+.edit__Button:hover, .delete__Button:hover{
+    --tw-text-opacity: 1;
+    color: rgb(55 48 163 / var(--tw-text-opacity));
+}

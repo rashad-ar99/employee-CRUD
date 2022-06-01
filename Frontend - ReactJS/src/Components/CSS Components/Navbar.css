@@ -1,0 +1,16 @@
+.header__Component{
+    background-color: rgb(48, 51, 53);
+}
+
+.header__Name{
+    height: 64px;
+    display: flex;
+    align-items: center;
+    padding-right: 32px;
+    padding-left: 20px;
+}
+
+.header__Details{
+    font-weight: 700;
+    color: white;
+}
